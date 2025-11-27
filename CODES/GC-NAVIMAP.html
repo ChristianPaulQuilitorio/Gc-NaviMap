@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="GC-NAVIMAP.css">
+    <script src="GC-NAVIMAP.js" defer></script> 
+   
+</head>
+<body>
+  <!--Background-image-->
+  <div class="background-div">
+
+  <div class="logo">
+      
+  </div>
+  <div class="logo2">
+      
+  </div>
+  
+  <!--The box where The magic is done(navigate)-->
+  <div class="box">
+    <div class="text">
+    <span><p><b>Navigate Here!!<b></p></span>
+      </div>
+    <ul>
+      <!-- Links to show images -->
+      <div class="dropdown">
+        <button onclick="toggleDropdown()" class="dropbtn">
+      <a href="#" class="showImageLink" data-index="0">First Floor</a></button>
+      <div id="myDropdown" class="dropdown-content">
+      <!--First Floor-->
+      <button class="button"><a href="#" class="showImageLink" data-index="1">Room 102-BOOK STORE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="2">Room 103-REGISTRAR OFFICE</a></li></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="3">Room 104-FINANCE SERVICES OFFICE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="4">Room 105-INSTITUTE OF GRADUATE STUDENTS</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="5">Room 106-ALUMNI OFFICE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="6">Room 107-CLASSROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="7">Room 108-CLASSROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="8">Room 109-CLASSROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="9">Room 110-CLASSROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="10">Room 111-CLASSROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="11">Room 112-MIDWIFERY SIMULATION ROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="12">Room 113-OCMB STOCK ROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="13">Room 114-ELECTRICAL & RDS STOCK ROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="14">Room 115-COMFORT ROOM(FEMALE)</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="15">Room 116-PIPE CHASE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="16">Room 117-COMFORT ROOM(MALE)</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="17">Room 118-CAHS INFIRMARY</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="18">Room 119-BIRTHING CLINIC OFFICE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="19">Room 120-HEALTH SERVICES UNIT</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="20">Room 121-GDA UNIFAST</a></button></li>
+      <button class="button"><a href="#" class="showImageLink" data-index="21">Room 122-DISCIPLINE OFFICE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="22">Room 123-TESTING ROOM</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="23">Room 124-ADMISSION OFFICE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="24">Room 125-GUIDANCE OFFICE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="25">Room 126-CANTEEN</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="26">Room 127-CANTEEN MAIN KITCHEN</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="27">Room 128-COMFORT ROOM(MALE)</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="28">Room 129-PIPE CHASE</a></button>
+      <button class="button"><a href="#" class="showImageLink" data-index="29">Room 130-COMFORT ROOM(FEMALE)</a></button>   
+      </div>
+      </div>
+
+      <!--Second Floor-->
+      <div class="dropdown">
+      <button onclick="toggleDropdown()" class="dropbtn">
+        <a href="#" class="showImageLink" data-index="30">Second Floor</a></button>
+        <div id="myDropdown" class="dropdown-content">
+        
+          <button class="button"><a href="#" class="showImageLink" data-index="31">Room 201-CARPENTRY WORKSHOP</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="32">Room 202-GC COOP STORAGE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="33">Room 203-GC COOPERATIVE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="34">Room 204-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="35">Room 205-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="36">Room 206-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="37">Room 207-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="38">Room 208-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="39">Room 209-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="40">Room 210-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="41">Room 211-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="42">Room 212-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="43">Room 213-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="44">Room 214-ALUMNI OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="45">Room 215-SSC OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="46">Room 216-COMFORT ROOM(FEMALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="47">Room 217-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="48">Room 218-COMFORT ROOM(MALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="49">Room 219-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="50">Room 220-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="51">Room 221-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="52">Room 222-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="53">Room 223-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="54">Room 224-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="55">Room 225-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="56">Room 226-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="57">Room 227-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="58">Room 228-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="59">Room 229-CLASSROOM</a></button>
+        </div>
+        </div>
+     
+      <!--Third Floor-->
+        <div class="dropdown">
+          <button onclick="toggleDropdown()" class="dropbtn">
+            <a href="#" class="showImageLink" data-index="60">Third Floor</a></button>
+            <div id="myDropdown" class="dropdown-content">
+      
+          <button class="button"><a href="#" class="showImageLink" data-index="61">Room 301-NSTP OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="62">Room 302-MIS OFFICE AND WORKSHOP</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="63">Room 303-COLLEGE PRESIDENT OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="64">Room 304-BOT CHAIRMAN OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="65">Room 305-GC RESEARCH CENTER</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="66">Room 306-COLLEGE OF ALLIED HEALTH STUDIES</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="67">Room 307-COLLEGE OF COMPUTER STUDIES</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="68">Room 308-VP, ACADEMIC AFFAIRS OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="69">Room 309-COLLEGE OF BUSINESS AND ACCOUNTANCY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="70">Room 310-RECORD MANAGEMENT OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="71">Room 311-FUNCTION HALL</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="72">Room 312-FACULTY ASSOCIATION OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="73">Room 313-BOYSCOUT RM.</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="74">Room 314-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="75">Room 315-DATA PRIVACY/DRRM OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="76">Room 316-QUALITY ASSURANCE CENTER</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="77">Room 317-RECORD ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="78">Room 318-CEAS DEAN OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="79">Room 319-COLLEGE OF EDUCATION,ART & SCIENCES</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="80">Room 320-VP, STUDENT WELFARE & SERVICES</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="81">Room 321-VP, ADMINISTRATION AND FINANCE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="82">Room 322-CHTM, DEAN OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="83">Room 323-COLLEGE OF HOSPITALITY AND TOURISM MANAGEMENT</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="84">Room 324-FACULTY LOUNGE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="85">Room 325-CONSULTANT FOR ADMINISTRATIVE SERVICES</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="86">Room 326-HUMAN RESOURCE UNIT</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="87">Room 327-TECH-VOC/EXTERNAL AFFAIRS OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="88">Room 328-COLLEGE ADMINISTRATOR'S OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="89">Room 329-CONFERENCE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="90">Room 330-PANTRY ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="91">Room 331-COMFORT ROOM(ADMIN MALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="92">Room 332-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="93">Room 333-COMFORT ROOM(ADMIN FEMALE)</a></button>
+          </div>
+          </div>
+
+          <!--Fourth Floor-->
+        <div class="dropdown">
+          <button onclick="toggleDropdown()" class="dropbtn">
+            <a href="#" class="showImageLink" data-index="94">Fourth Floor</a></button>
+            <div id="myDropdown" class="dropdown-content">
+      
+          <button class="button"><a href="#" class="showImageLink" data-index="95">Room  401-STORAGE ROOM(SUPPLIES)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="96">Room  402-STORAGE ROOM(MAINTENANCE AND JANITORIAL)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="97">Room  403-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="98">Room  404-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="99">Room  405-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="100">Room 406-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="101">Room 407-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="102">Room 408-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="103">Room 409-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="104">Room 410-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="105">Room 411-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="106">Room 412-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="107">Room 413-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="108">Room 414-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="109">Room 415-INTERFAITH CHAPEL</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="110">Room 416-RESTROOM (FEMALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="111">Room 417-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="112">Room 418-RESTROOM (MALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="113">Room 419-LIBRARY AND INSTRUCTIONAL MEDIA CENTER</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="114">Room 420-AUDIO VIDUAL ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="115">Room 421-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="116">Room 422-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="117">Room 423-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="118">Room 424-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="119">Room 425-PROPERTY MANAGEMENT UNIT</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="120">Room 426-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="121">Room 427-MAINTENANCE AND JANITORIAL SERVICES UNIT</a></button>
+          </div>
+          </div>
+            
+            <!--Fifth Floor-->
+        <div class="dropdown">
+          <button onclick="toggleDropdown()" class="dropbtn">
+            <a href="#" class="showImageLink" data-index="122">Fifth Floor</a></button>
+            <div id="myDropdown" class="dropdown-content">
+      
+          <button class="button"><a href="#" class="showImageLink" data-index="123">Room 501-SUPPLY STORAGE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="124">Room 502-ARCHIVE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="125">Room 503-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="126">Room 504-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="127">Room 505-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="128">Room 506-STUDENT ORGANIZATION'S OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="129">Room 507-COMPUTER LABARATORY 6</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="130">Room 508-COMPUTER LABARATORY 7</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="131">Room 509-COMPUTER LABARATORY 8</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="132">Room 510-COMPUTER LABARATORY 9</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="133">Room 511-PE HALL</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="134">Room 512-PE COORDINATOR OFFICE AND STORAGE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="135">Room 513-PE STORAGE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="136">Room 514-PASE VOCI TRAINING ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="137">Room 515-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="138">Room 516-FOREFRONT OFFICE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="139">Room 517-COMPUTER LABARATORY 5</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="140">Room 518-COMPUTER LABARATORY 4</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="141">Room 519-COMPUTER LABARATORY 3</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="142">Room 520-COMPUTER LABARATORY 2</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="143">Room 521-COMPUTER LABARATORY 1</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="144">Room 522-VIDEO RECORDING ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="145">Room 523-AUDIO RECORDING ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="146">Room 524-VIEWING ROOM(AB COMM)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="147">Room 525-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="148">Room 526-SPEECH LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="149">Room 527-MEDIA CENTER</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="150">Room 528-EARLY CHILDHOOD EDUCATION LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="151">Room 529-RESTROOM(MALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="152">Room 530-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="153">Room 531-RESTROOM(FEMALE)</a></button>
+          </div>
+          </div>
+
+              <!--Sixth Floor-->
+        <div class="dropdown">
+          <button onclick="toggleDropdown()" class="dropbtn">
+            <a href="#" class="showImageLink" data-index="154">Sixth Floor</a></button>
+            <div id="myDropdown" class="dropdown-content">
+      
+          <button class="button"><a href="#" class="showImageLink" data-index="155">Room 601-ELECTRICAL ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="156">Room 602-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="157">Room 603-NURSING SKILLS LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="158">Room 604-NURSING DEMONSTRATION ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="159">Room 605-CHEMISTRY LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="160">Room 606-BIOLOGY LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="161">Room 607-PHYSICS LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="162">Room 608-OFFICE OF THE LABARATORY CUSTODIAN</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="163">Room 609-SCIENCE LECTURE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="164">Room 610-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="165">Room 611-DINING & BAR LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="166">Room 612-ELECTRICAL ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="167">Room 613-RESTROOM (FEMALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="168">Room 614-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="169">Room 615-RESTROOM (MALE)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="170">Room 616-BAKING LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="171">Room 617-HOT KITCHEN LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="172">Room 618-COLD KITCHEN LABARATORY</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="173">Room 619-CHTM CUSTODIAN OFFICE & STORAGE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="174">Room 620-MINI HOTEL A</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="175">Room 621-MINI HOTEL B</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="176">Room 622-MINI HOTEL FRONT DESK</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="177">Room 623-MOCK TRAVEL AGENCY LAB</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="178">Room 624-GLASSWARE STORAGE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="179">Room 625-CHEMICAL PREPARATION ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="180">Room 626-CHEMICAL STORAGE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="181">Room 627-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="182">Room 628-NURSING CONFERENCE ROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="183">Room 629-CLASSROOM</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="184">Room 630-CAHS (STORAGE ROOM)</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="185">Room 631-PIPE CHASE</a></button>
+          <button class="button"><a href="#" class="showImageLink" data-index="186">Room 632-BSCA (SIMULATION ROOM)</a></button>
+          
+          </div>
+          </div>
+
+          <button onclick="toggleDropdown()" class="dropbtn">
+            <a href="#" class="showImageLink" data-index="187">About</a></button>
+          
+    </ul>
+  </div>
+</div>
+  <!--The Center Box Where i put the images-->
+  <div class="center-box">
+    <!-- Images -->
+    <!--1ST FLOOR-->
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\1st floor.png" alt="First Floor" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\102.gif" alt="Image 2" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\103.gif" alt="image 3" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\104.gif" alt="Image 4" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\105.gif" alt="Image 5" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\106.gif" alt="Image 6" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\107.gif" alt="Image 7" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\108.gif" alt="Image 8" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\109.gif" alt="Image 9" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\110.gif" alt="Image 10" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\111.gif" alt="Image 11" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\112.gif" alt="Image 12" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\113.gif" alt="Image 13" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\114.gif" alt="Image 14" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\115.gif" alt="Image 15" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\116.gif" alt="Image 16" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\117.gif" alt="Image 17" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\118.gif" alt="Image 18" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\119.gif" alt="Image 19" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\120.gif" alt="Image 20" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\121.gif" alt="Image 21" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\122.gif" alt="Image 22" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\123.gif" alt="Image 23" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\124.gif" alt="Image 24" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\125.gif" alt="Image 25" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\126.gif" alt="Image 26" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\127.gif" alt="Image 27" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\128.gif" alt="Image 28" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\129.gif" alt="Image 29" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\130.gif" alt="Image 30" class="image">
+    <!--2ND FLOOR-->
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\2nd floor.png" alt="Second Floor" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\201.gif" alt="Image 31" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\202.gif" alt="Image 32" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\203.gif" alt="Image 33" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\204.gif" alt="Image 34" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\205.gif" alt="Image 35" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\206.gif" alt="Image 36" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\207.gif" alt="Image 37" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\208.gif" alt="Image 38" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\209.gif" alt="Image 39" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\210.gif" alt="Image 40" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\211.gif" alt="Image 41" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\212.gif" alt="Image 42" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\213.gif" alt="Image 43" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\214.gif" alt="Image 44" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\215.gif" alt="Image 45" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\216.gif" alt="Image 46" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\217.gif" alt="Image 47" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\218.gif" alt="Image 48" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\219.gif" alt="Image 49" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\220.gif" alt="Image 50" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\221.gif" alt="Image 51" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\222.gif" alt="Image 52" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\223.gif" alt="Image 53" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\224.gif" alt="Image 54" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\225.gif" alt="Image 55" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\226.gif" alt="Image 56" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\227.gif" alt="Image 57" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\228.gif" alt="Image 58" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\229.gif" alt="Image 59" class="image">
+    <!--3RD FLOOR-->
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\3rd floor.png" alt="Third Floor" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\301.gif" alt="Image 60" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\302.gif" alt="Image 61" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\303.gif" alt="Image 62" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\304.gif" alt="Image 63" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\305.gif" alt="Image 64" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\306.gif" alt="Image 65" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\307.gif" alt="Image 66" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\308.gif" alt="Image 67" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\309.gif" alt="Image 68" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\310.gif" alt="Image 69" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\311.gif" alt="Image 70" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\312.gif" alt="Image 71" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\313.gif" alt="Image 72" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\314.gif" alt="Image 73" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\315.gif" alt="Image 74" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\316.gif" alt="Image 75" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\317.gif" alt="Image 76" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\318.gif" alt="Image 77" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\319.gif" alt="Image 78" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\320.gif" alt="Image 79" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\321.gif" alt="Image 80" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\322.gif" alt="Image 81" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\323.gif" alt="Image 82" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\324.gif" alt="Image 83" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\325.gif" alt="Image 84" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\326.gif" alt="Image 85" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\327.gif" alt="Image 86" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\328.gif" alt="Image 87" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\329.gif" alt="Image 88" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\330.gif" alt="Image 89" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\331.gif" alt="Image 90" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\332.gif" alt="Image 91" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\333.gif" alt="Image 92" class="image">
+
+     <!--4th FLOOR-->
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\4th floor.png" alt="Fourth Floor" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\401.gif" alt="Image 93" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\402.gif" alt="Image 94" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\403.gif" alt="Image 95" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\404.gif" alt="Image 96" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\405.gif" alt="Image 97" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\406.gif" alt="Image 98" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\407.gif" alt="Image 99" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\408.gif" alt="Image 100" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\409.gif" alt="Image 101" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\410.gif" alt="Image 102" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\411.gif" alt="Image 103" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\412.gif" alt="Image 104" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\413.gif" alt="Image 105" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\414.gif" alt="Image 106" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\415.gif" alt="Image 107" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\416.gif" alt="Image 108" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\417.gif" alt="Image 109" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\418.gif" alt="Image 110" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\419.gif" alt="Image 111" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\420.gif" alt="Image 112" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\421.gif" alt="Image 113" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\422.gif" alt="Image 114" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\423.gif" alt="Image 115" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\424.gif" alt="Image 116" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\425.gif" alt="Image 117" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\426.gif" alt="Image 118" class="image">
+     <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\427.gif" alt="Image 119" class="image">
+
+      <!--5th FLOOR-->
+      <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\5th floor.png" alt="Fifth Floor" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\501.gif" alt="Image 120" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\502.gif" alt="Image 121" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\503.gif" alt="Image 122" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\504.gif" alt="Image 123" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\505.gif" alt="Image 124" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\506.gif" alt="Image 125" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\507.gif" alt="Image 126" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\508.gif" alt="Image 127" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\509.gif" alt="Image 128" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\510.gif" alt="Image 129" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\511.gif" alt="Image 130" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\512.gif" alt="Image 131" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\513.gif" alt="Image 132" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\514.gif" alt="Image 133" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\515.gif" alt="Image 134" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\516.gif" alt="Image 135" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\517.gif" alt="Image 136" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\518.gif" alt="Image 137" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\519.gif" alt="Image 138" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\520.gif" alt="Image 139" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\521.gif" alt="Image 140" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\522.gif" alt="Image 141" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\523.gif" alt="Image 142" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\524.gif" alt="Image 143" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\525.gif" alt="Image 144" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\526.gif" alt="Image 145" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\527.gif" alt="Image 146" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\528.gif" alt="Image 147" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\529.gif" alt="Image 148" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\530.gif" alt="Image 149" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\531.gif" alt="Image 150" class="image">
+
+    <!--6th FLOOR-->
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\6th floor.png" alt="Fifth Floor" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\601.jpg" alt="Image 151" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\602.jpg" alt="Image 152" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\603.jpg" alt="Image 153" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\604.jpg" alt="Image 154" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\605.jpg" alt="Image 155" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\606.jpg" alt="Image 156" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\607.jpg" alt="Image 157" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\608.jpg" alt="Image 158" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\609.jpg" alt="Image 159" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\610.jpg" alt="Image 160" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\611.jpg" alt="Image 161" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\612.jpg" alt="Image 162" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\613.jpg" alt="Image 163" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\614.jpg" alt="Image 164" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\615.jpg" alt="Image 165" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\616.jpg" alt="Image 166" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\617.jpg" alt="Image 167" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\618.jpg" alt="Image 168" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\619.jpg" alt="Image 169" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\620.jpg" alt="Image 170" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\621.jpg" alt="Image 171" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\622.jpg" alt="Image 172" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\623.jpg" alt="Image 173" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\624.jpg" alt="Image 174" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\625.jpg" alt="Image 175" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\626.jpg" alt="Image 176" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\627.jpg" alt="Image 177" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\628.jpg" alt="Image 178" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\629.jpg" alt="Image 179" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\630.jpg" alt="Image 180" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\631.jpg" alt="Image 181" class="image">
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\632.jpg" alt="Image 182" class="image">
+
+    <img src="D:\Assignments\HCI FINAL PROJECT- GC-NAVIMAP\Pictures\About.jpg" alt="Image 183" class="image">
+     </div>
+  
+  
+  <div class="top-CenterBox">
+    <p style="line-height: 0.8;"><strong>GC-NAVIMAP</strong></p>   
+  </div>
+  
+  <div class="top-border">
+    </div>
+    <div class="bottom">
+    </div>
+
+  
+</body>
+</html>
+
+

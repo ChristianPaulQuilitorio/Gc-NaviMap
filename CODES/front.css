@@ -1,0 +1,46 @@
+body {
+    background-image: url("Bgp.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+button {
+    border-radius: 10px;
+    background: linear-gradient(#4CAF50, green);
+    border: 6px solid white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 4in;
+    margin-left: 6.3in;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:white;
+}
+.GC-NAVIMAP {
+    border-radius: 10px;
+    background: linear-gradient(#4CAF50, green);
+    border: 6px solid white;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-top: -4in;
+    margin-left: 5.6in;
+    margin-right: 6in;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+  }
+  
+  a:hover,
+  a:focus {
+    outline: none; /* Remove outline on hover and focus */
+  }
+  
